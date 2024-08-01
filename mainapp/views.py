@@ -8,7 +8,6 @@ def index(request):
 
     BASE_URL ='http://api.weatherapi.com/v1'
 
-    # API_KEY = 'e4c8276f554649ec989195358240108' # ***************
 
     if request.method=='POST':
         city=request.POST.get('city').lower()
