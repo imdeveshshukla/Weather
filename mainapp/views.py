@@ -14,8 +14,8 @@ def index(request):
         print(city)
 
         if API_KEY == 'paste-your-api-key':
-            print('Please add your generated API key into the "API_KEY" variable within the views.py')
-            return render(request,'index.html',{'checker':'Please add your generated API key into the "API_KEY" variable within the views.py'})
+            print('Please add your generated API key into the "API_KEY" variable within the .env file')
+            return render(request,'index.html',{'checker':'Please add your generated API key into the "API_KEY" variable within the .env file'})
 
         elif (city== ''):
             print('No value')

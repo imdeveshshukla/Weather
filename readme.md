@@ -18,7 +18,7 @@ pip install requests
 
 4. Sign up for a free account at [weatherapi.com](https://www.weatherapi.com/), log in, and generate your new API key in the dashboard section.
 
-5. After generating your API key, copy it and then paste it into the "API_KEY" variable within the views.py file using this format:
+5. After generating your API key, copy it and then paste it into the "API_KEY" variable within the .env file using this format:
 ```bash
 API_KEY = 'paste-your-api-key'
 ```
